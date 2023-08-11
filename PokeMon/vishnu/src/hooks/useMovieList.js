@@ -24,8 +24,9 @@ function useMovieList (...args) {
     }
 
     useEffect(() => {
+        // console.log("movie list called again")
         downloadDefaultCards(...args)
-    }, [])
+    }, [...args])
 
     return {cardList}
 }
