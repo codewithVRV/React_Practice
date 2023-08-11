@@ -1,0 +1,42 @@
+
+.search-bar {
+    width: 400px;
+    /* border: 1px solid red; */
+    padding: 2rem;
+    margin:  0 auto;
+
+}
+
+.search-bar  input {
+    width: 360px;
+    height: 1.7rem;
+  
+}
+
+.home-text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    
+}
+
+.home-text button {
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#result-list{
+    position: absolute;
+    display: none;
+}
+
+.auto-complete {
+    font-size: larger;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    padding: 15px;
+}
